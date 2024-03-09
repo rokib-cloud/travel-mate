@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Mate</title>
     <!-- css file -->
     <link rel="stylesheet" href="stylesheet/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="container">
+    <header>
+        <nav class="top-nav">
+            <div class="flex align-center gap-1">
+                <div>
+                    <img src="Images/Group 40071 (2).png" alt="">
+                </div>
+                <div>
+                    <h1>Travel <span>Mate</span></h1>
+                </div>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li class="active">Home</li>
+                <li>Packages</li>
+                <li>Testimonial</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <section class="banner">
+            <div class="input-container">
+                <div><input type="text" value="Where to google"></div>
+                <div><input type="text"></div>
+                <div><input type="text"></div>
+            </div>
+        </section>
+    </header>
 </body>
+
 </html>
