@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
 </head>
+
 <body class="container">
     <header>
         <nav class="top-nav">
@@ -21,7 +22,7 @@
                     <img src="Images/Group 40071 (2).png" alt="">
                 </div>
                 <div>
-                    <h1>Travel <span>Mate</span></h1>
+                    <p class="title">Travel <span class="span">Mate</span></p>
                 </div>
             </div>
             <input id="menu-toggle" type="checkbox" />
@@ -36,23 +37,32 @@
                 <li>Contact</li>
             </ul>
         </nav>
-        <section class="banner">
-            <div class="input-container">
-                <div><input type="text" value="Where to google"></div>
-                <div><input type="text"></div>
-                <div><input type="text"></div>
+        <section class="banner flex flex-col white text-center justify-center">
+            <div>
+                <h1 class="white">Explore Your Travel</h1>
+                <p>The world whispers its secrets to those with the courage to explore beyond the lines on a map.
+                    <br>Let
+                    your heart be your compass, guiding you towards experiences that spark wonder
+                </p>
+            </div>
+            <div class="blur-bg">
+                <div class="input-container gap-1 justify-center">
+                    <input class="p-20 round-1 border-none" type="text" value="Where to google">
+                    <input class="p-20 round-1 border-none" type="text">
+                    <input class="p-20 round-1 border-none" type="text">
+                </div>
             </div>
         </section>
     </header>
     <!-- popular tour section -->
-    <section class="popular-tour">
-        <div>
-            <h2>Our Popular Tours</h2>
-            <div class="content">
+    <section class="popular-tour margin-top-40 justify-evenly align-center">
+        <div class="popular-tour-contents">
+            <h2 class="popular-tour-heading">Our Popular Tours</h2>
+            <div class="popular-tour-content">
                 <p>These popular tour destinations offer unique experiences, whether <br> it's the romance of Paris, the
                     natural beauty of Bali, or the dynamic energy of New York City. </p>
             </div>
-            <div class="content">
+            <div>
                 <ul>
                     <li><strong>Paris, France: </strong> Known as the "City of Love," Paris offers iconic landmarks
                         such as <br> the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral, <br> along with charming
@@ -65,15 +75,17 @@
                         MoMA, diverse neighborhoods, <br> and unparalleled dining and shopping experiences.</li>
                 </ul>
             </div>
-            <div class="content">
+            <div class="popular-tour-content">
                 <p>These popular tour destinations offer unique experiences, whether it's the romance of Paris, the
-                    natural beauty of Bali, or the dynamic energy of New York City. Each destination promises
-                    unforgettable memories and adventures, catering to diverse interests and preferences of travelers
-                    around the globe. Whether you seek cultural immersion, relaxation, or excitement, these destinations
-                    have something to offer for everyone.</p>
+                    natural <br> beauty of Bali, or the dynamic energy of New York City. Each destination promises
+                    unforgettable <br> memories and adventures, catering to diverse interests and preferences of
+                    travelers
+                    around the globe.br <br> Whether you seek cultural immersion, relaxation, or excitement, these
+                    destinations
+                    have something to offer <br> for everyone.</p>
             </div>
 
-            <button>Read More</button>
+            <button class="popular-tour-button white">Read More</button>
         </div>
         <div>
             <img src="images/Rectangle 4.png" alt="">
@@ -82,8 +94,8 @@
 
     <!-- destination section -->
     <section>
-        <div class="destination-headiong">
-            <h2>Choose Your DestinationF</h2>
+        <div class="destination-headiong text-center">
+            <h2>Choose Your Destination</h2>
             <p>Destination is not just a place on the map; it's a journey of discovery, a story waiting to unfold, and a
                 memory waiting to be made</p>
         </div>
@@ -96,7 +108,7 @@
                     <strong>Indonesia</strong>
                 </div>
             </div>
-            <div class="destinatiom-row-2">
+            <div class="destinatiom-row-2 margin-top-50">
                 <div class="sri-lanka">
                     <strong>Srilanka</strong>
                 </div>
@@ -105,6 +117,14 @@
                 </div>
                 <div class="kashmir">
                     <strong>Kashmir</strong>
+                </div>
+            </div>
+            <div class="destination-row-3 margin-top-50">
+                <div class="bangldesh">
+                    <strong>Bangladesh</strong>
+                </div>
+                <div class="bandarban">
+                    <strong> Bandarban</strong>
                 </div>
             </div>
         </div>
