@@ -30,6 +30,11 @@ h2 {
     line-height: normal;
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
 p,
 ul {
     font-family: "Mulish", sans-serif;
@@ -69,6 +74,16 @@ span {
     flex-direction: column;
 }
 
+/* grid property */
+.grid {
+    display: grid;
+}
+
+.items-center {
+    justify-items: center;
+}
+
+/* gap */
 .gap-1 {
     gap: 10px;
 }
@@ -98,6 +113,10 @@ span {
 
 .p-20 {
     padding: 20px;
+}
+
+.p-50 {
+    padding: 50px;
 }
 
 /* margin */
@@ -290,7 +309,8 @@ li:hover {
     width: 100%;
 }
 
-.destination-row-3 .destinatiom-row-2,.destination-row-1 img {
+.destination-row-3 .destinatiom-row-2,
+.destination-row-1 img {
     width: 100%;
 }
 
@@ -363,6 +383,53 @@ li:hover {
     background-image: url(../Images/Rectangle\ 10.png);
 }
 
+/* why choose us */
+.why-chosee-us {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.price {
+    margin-top: 20px;
+    grid-template-columns: 1;
+}
+
+.hotel {
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map {
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price-tag {
+    width: 573px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.satorini-tour {
+    display: grid;
+    grid-template-columns: repeat(2, 40% 60%);
+    background: url(../Images/Group\ 39.png);
+}
+
+.satorini-tour {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
 @media (max-width: 600px) {
     .menu-button-container {
         display: flex;
@@ -414,6 +481,7 @@ li:hover {
 
     .popular-tour {
         flex-direction: column;
+        flex-wrap: wrap;
         width: 100%;
         overflow: hidden;
     }
@@ -443,7 +511,8 @@ li:hover {
 
 
     .destination-row-1,
-    .destinatiom-row-2,.destination-row-3 {
+    .destinatiom-row-2,
+    .destination-row-3 {
         overflow: hidden;
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
@@ -458,8 +527,25 @@ li:hover {
     .indonesia,
     .sri-lanka,
     .north-america,
-    .kashmir,.bangldesh,.bandarban {
+    .kashmir,
+    .bangldesh,
+    .bandarban {
         width: 335px;
         height: 176px;
+        margin-top: 10px;
+    }
+
+    .why-chosee-us {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choose-us-mobile-width {
+        text-align: center;
+       
+    }
+
+
+    .map {
+        margin-top: 20px;
     }
 }
