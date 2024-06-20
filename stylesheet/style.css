@@ -431,6 +431,13 @@ li:hover {
 }
 
 @media (max-width: 600px) {
+    .container {
+        /* margin: 0 auto; */
+        margin:10px;
+    }
+.banner{
+    border-radius: 20px;
+}
     .menu-button-container {
         display: flex;
     }
@@ -500,7 +507,7 @@ li:hover {
     }
 
     .popular-tour img {
-        width: 335px;
+        width: 535px;
         height: 342px;
         margin-top: 20px;
     }
@@ -519,8 +526,8 @@ li:hover {
     }
 
     .destinatiom-row-2 {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        /* margin-top: 10px; */
+        /* margin-bottom: 10px; */
     }
 
     .maldives,
@@ -530,9 +537,10 @@ li:hover {
     .kashmir,
     .bangldesh,
     .bandarban {
-        width: 335px;
-        height: 176px;
+        width: 535px;
+        height: 296px;
         margin-top: 10px;
+        border-radius: 10px;
     }
 
     .why-chosee-us {
@@ -541,9 +549,24 @@ li:hover {
 
     .choose-us-mobile-width {
         text-align: center;
-       
-    }
 
+    }
+    .hotel{
+        width: 320px;
+        height: 305px;
+    }
+    .map{
+        width: 320px;
+        height: 305px;
+    }
+.price{
+    margin-top: 5px;
+}
+    .price-tag {
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
 
     .map {
         margin-top: 20px;
