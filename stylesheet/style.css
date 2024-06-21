@@ -124,6 +124,10 @@ span {
 }
 
 /* margin */
+
+.mt-10{
+    margin-top: 10px;
+}
 .margin-top-60 {
     margin-top: 60px;
 }
@@ -153,7 +157,10 @@ span {
 .round-1 {
     border-radius: 10px;
 }
-
+.button-center{
+    display: block;
+    margin: auto;
+}
 /* nav */
 .title {
     font-size: 32px;
@@ -441,30 +448,6 @@ li:hover {
     background: rgba(233, 68, 68, 0.05);
 }
 
-/* .satorini-bg-1 {
-    background-image: url(../Images/Group\ 39.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1170px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 30px;
-    position: relative;
-}
-
-.satorini-tour-1 {
-    position: absolute;
-    right: 35px;
-    bottom:35px;
-    top: 35px;
-    width: 579px;
-    height: 389px;
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-} */
-
 .satorini-bg-1 {
     background-image: url(../Images/Group\ 39.png);
     background-repeat: no-repeat;
@@ -474,6 +457,8 @@ li:hover {
     margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 30px;
+    margin-top: 30px;
 }
 
 .satorini-tour-1 {
