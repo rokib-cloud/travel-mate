@@ -534,6 +534,13 @@ li:hover {
     height: 422px;
 }
 
+footer {
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: auto;
+    margin-top:30px ;
+}
+
 @media (max-width: 600px) {
     .container {
         /* margin: 0 auto; */
@@ -607,13 +614,16 @@ li:hover {
     .when {
         padding-right: 155px;
     }
-    .select-type{
+
+    .select-type {
         padding-right: 111px;
     }
-    .find-now{
+
+    .find-now {
         padding-right: 72px;
         padding-left: 72px;
     }
+
     .blur-bg {
         display: flex;
         width: 287px;
